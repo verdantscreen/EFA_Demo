@@ -1,0 +1,89 @@
+body {
+  background-color: #DAF7A6;
+  font-family: 'Raleway', arial;
+}
+nav {
+  background-color: #FFC300;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+}
+.nav-link {
+  color: #FF5733;
+  text-decoration: none;
+  font-family: 'Finneon', arial;
+}
+.nav-link:hover{
+  color: lightblue;
+  font-weight: bold;
+}
+#brand .nav-link {
+  color: lightblue;
+  font-size: 18pt;
+  font-weight: bold;
+}
+#brand .nav-link:hover {
+  color: #FF5733;
+}
+
+h1 {
+  font-size: 60pt;
+  font-family: 'Acme', sans-serif;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width:100vw;
+  height: 30vh;
+  padding-top: 3em;
+  background: url('https://images.unsplash.com/photo-1471712235365-95a5908e4036?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80') center 75% no-repeat fixed;
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  color: #C86853;
+  text-shadow: 2px 2px 2px white;
+}
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 18pt;
+}
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: darkred;
+}
+.main {
+  text-align:center;
+}
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2px 2px 2px black;
+}
+#about-content {
+  width: 40vw;
+  float: right;
+}
